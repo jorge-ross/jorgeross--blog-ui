@@ -3,15 +3,18 @@
 }
 
 body {
-  padding: 20px 16px;
+  padding: 0;
   margin: 0px;
+  height: 100%;
 }
 
 #main-header {
+  font-family: 'Open Sans', sans-serif;
 	background: #44403C;
   position: fixed;
 	color: white;
-	max-height: 68px;
+	line-height: 68px;
+  height: 68px;
   width: 100%;
   left: 0;
   top: 0;
@@ -19,27 +22,70 @@ body {
 
 #main-header p {
   text-align: center;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Open Sans';
   text-transform: uppercase;
   margin-top: 16px;
   margin-bottom: 16px;
   font-size: 30px;
-  max-height: 36px;
+  line-height: 36px;
+}
+
+.container {
+  padding-top: 68px;
+  padding-bottom: 68px;
+  margin: 0 16px;
+  min-height: 100%;
 }
 
 h1 {
+  font-family: 'Open Sans', sans-serif;
   text-align: left;
   max-width: 100%;
-  max-height: 120px;
+  max-height: 100%;
   margin-bottom: 32px;
-  margin-top: 96px;
+  display: flex;
+  margin-top: 48px;
   font-size: 36px;
+  color: #111827;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 24px;
+  margin-top: 56px;
+  display: flex;
+  margin-top: 56px;
+  font-size: 30px;
+  line-height: 40px;
   color: #111827;
 }
 
 p {
   text-align: justify;
   margin: 24px 0px 24px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+ul {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 32px;
+}
+
+blockquote {
+  padding: 16px 18px;
+  background-color: #D6D3D1;
+  border-radius: 8px;
+  line-height: 32px;
+  font-style: italic;
+  font-size: 18px;
 }
 
 blockquote {
@@ -50,11 +96,36 @@ blockquote {
 
 #main-footer {
 	background: #44403C;
-	color: white;
-	padding: 20px;
-	margin-top: 40px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  line-height: 68px;
+  height: 68px;
+  width: 100%;
 }
 	#main-footer p {
-		margin: 0;
-    text-align: center;
+		text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    left: calc(50% - 117px/2);
 	}
+
+  figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    margin-top: 14px;
+  }
+
