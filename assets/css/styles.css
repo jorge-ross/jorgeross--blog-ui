@@ -74,16 +74,6 @@ body {
   line-height: 32px;
   font-weight: 300;  
   border-left: 4px solid var(---stone-300);
-
-  /* margin: 24px 0;
-  padding: 16px 18px;
-  background: #D6D3D1;
-  border-radius: 8px;
-  line-height: 32px;
-  font-weight: 400; */
-
-  /* <em></em> =  */
-  /* font-style: italic; */
 }
 
 .article figure {
