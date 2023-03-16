@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <style>
+      body {
+        /* viewport height */
+        margin: 0;
+        height: 100vh;
+      }
+
+      .sections {
+        height: 100vh;
+        display: grid;
+        /* grid-template: rows / columns */
+        grid-template: 25px 1fr / 20% 1fr 20%;
+        grid-template-areas:
+          "brand title title"
+          "list message threads";
+      }
+
+      .sections__brand {
+        grid-area: brand;
+        background-color: red;
+      }
+      .sections__title {
+        grid-area: title;
+        background-color: blue;
+      }
+      .sections__list {
+        grid-area: list;
+        background-color: yellow;
+      }
+      .sections__message {
+        grid-area: message;
+        background-color: orange;
+
+        display: grid;
+        grid-template: 25px 1fr;
+        grid-template-areas:
+          "stories"
+          "post";
+      }
+
+      .sections__message__stories {
+        grid-area: stories;
+        background-color: brown;
+      }
+
+      .sections__message__post {
+        grid-area: post;
+        background-color: violet;
+      }
+
+      .sections__threads {
+        grid-area: threads;
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sections">
+      <section class="sections__list">list</section>
+      <section class="sections__message">
+        <div class="sections__message__stories">Stories</div>
+        <div class="sections__message__post">Post</div>
+      </section>
+      <section class="sections__brand">brand</section>
+      <section class="sections__title">title</section>
+      <section class="sections__threads">threads</section>
+    </div>
+  </body>
+</html>
