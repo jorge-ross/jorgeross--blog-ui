@@ -58,3 +58,7 @@
 .section-padding-xl {
   padding: 144px 0;
 }
+
+.container-lg h2 {
+  margin-bottom: 1rem;
+}

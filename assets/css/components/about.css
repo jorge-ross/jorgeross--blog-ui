@@ -1,0 +1,29 @@
+.about-hobbies {
+  text-align: center;
+}
+
+.about-hobbies__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.about-hobbies__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625em;
+}
+
+.about-hobbies img {
+  border-radius: 8px;
+}
+
+.about-hobbies p {
+  line-height: 30px;
+  font-weight: 300;
+  margin: 0 8px;
+}
