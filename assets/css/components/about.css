@@ -1,5 +1,28 @@
-.about-hobbies {
+.about-summary__title,
+.about-hobbies__title {
   text-align: center;
+  margin-bottom: 3rem;
+}
+
+.about-summary__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.about-summary__card {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+svg {
+  margin-right: .5rem;
+  width: 3rem;
+  height: 1.35rem;
+  fill: var(--green-500);
+  transform: scale(2);
 }
 
 .about-hobbies__content {
@@ -25,5 +48,5 @@
 .about-hobbies p {
   line-height: 30px;
   font-weight: 300;
-  margin: 0 8px;
+  padding: 0 8px;
 }

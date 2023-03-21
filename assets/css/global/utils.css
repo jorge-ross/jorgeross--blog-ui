@@ -55,12 +55,6 @@
   background-color: var(--background-dark);
 }
 
-/* .margin-left-1x {
-  margin-left: 1rem;
+.bg-color-background {
+  background-color: var(--background);
 }
-.margin-left-2x {
-  margin-left: 2rem;
-}
-.margin-left-3x {
-  margin-left: 3rem;
-} */
