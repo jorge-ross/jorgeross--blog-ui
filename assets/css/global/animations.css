@@ -1,0 +1,16 @@
+.transition-button {
+  background-color: var(--red-500);
+  color: var(--yellow-400);
+  
+  transition: all 1.5s linear;
+}
+
+.transition-button:hover {
+  transform: translateY(10px);
+  color: var(--pink-400);
+}
+
+.transition-button:focus {
+  opacity: 0;
+  transform: translateY(10px);
+}

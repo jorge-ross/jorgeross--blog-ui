@@ -7,6 +7,7 @@
   border-radius: 6px;
   border: 1px solid var(--gray-700);
   background-color: var(--white);
+  margin-top: .25rem;
 }
 
 .input::placeholder {
@@ -42,4 +43,53 @@
   position: relative;
   padding-inline-start: 2rem;
   padding-inline-end: .75rem;
+}
+
+.input--error {
+  border: 1px solid var(--error);
+}
+
+.input__message,
+.select__message {
+  display: block;
+  margin: .25rem 0;
+  font-size: .875rem;
+  line-height: 1.3125rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.input__message--help,
+.select__message--help {
+  color: var(--gray-500);
+}
+
+.input__message--error,
+.select__message--error {
+  color: var(--error);
+}
+
+.select {
+  color: var(--gray-700);
+  width: 100%;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: .5rem .75rem;
+  border-radius: .375rem;
+  background-color: var(--white);
+  border: 1px solid var(--gray-700);
+
+  cursor: pointer;
+  padding-right: 2.5rem;
+  margin-top: .25rem;
+
+  appearance: none;
+  background-image: url(/assets/Images/icons/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: calc(100% - 12px);
+}
+
+.select--error {
+  border: 1px solid var(--error)
 }

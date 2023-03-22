@@ -2,3 +2,16 @@
 .contact-me__title p {
   text-align: center;
 }
+
+.contact-me__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  padding-top: 2rem;
+  gap: 2rem;
+}
+
+.contact-me__card {
+  display: flex;
+  flex-direction: column;
+}
+
