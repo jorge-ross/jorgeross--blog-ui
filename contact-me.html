@@ -11,13 +11,22 @@
     <header class="header">
       <div class="container-lg">
         <nav class="navbar">
+          <input type="checkbox" id="menu-mobile" />
           <a
             href="/index.html"
             class="navbar__logo heading-md semibold text-decoration-none"
           >
             <span>Jorge Ross</span>
+
+            <label for="menu-mobile" id="toggle-close">
+              <i class="ri-close-fill ri-sm"></i>
+            </label>
+
+            <label for="menu-mobile" id="toggle-open">
+              <i class="ri-menu-fill ri-sm"></i>
+            </label>
           </a>
-          <ul class="navbar__links list-style-none">
+          <ul class="expandable navbar__links list-style-none">
             <li>
               <a href="article.html" class="link text-md semibold">Articles</a>
             </li>
@@ -117,11 +126,84 @@
                 <option selected disabled hidden>Select one option</option>
                 <option value="1">México</option>
                 <option value="2">Perú</option>
+                <option value="3">Costa Rica</option>
+                <option value="4">Colombia</option>
               </select>
             </label>
           </div>
         </div>
+
+        <div>
+          <p class="overline text-xs light">how can I help you?</p>
+          <div class="checkbox-group checkbox-group--vertical">
+            <div class="checkbox">
+              <input
+                id="checkbox_1"
+                name="checkbox_group_1"
+                type="checkbox"
+                class="checkbox__input"
+              />
+              <div>
+                <label for="checkbox_1" class="text-sm light">Job Offer</label>
+                <span class="checkbox__message"
+                  >If you are looking forward to expand your team
+                </span>
+              </div>
+            </div>
+            <div class="checkbox">
+              <input
+                id="checkbox_2"
+                name="checkbox_group_1"
+                type="checkbox"
+                class="checkbox__input"
+              />
+              <div>
+                <label for="checkbox_2" class="text-sm light"
+                  >Project Offer</label
+                >
+              </div>
+            </div>
+            <div class="checkbox">
+              <input
+                id="checkbox_3"
+                name="checkbox_group_1"
+                type="checkbox"
+                class="checkbox__input"
+              />
+              <div>
+                <label for="checkbox_3" class="text-sm light"
+                  >Collaboration</label
+                >
+              </div>
+            </div>
+            <div class="checkbox">
+              <input
+                id="checkbox_4"
+                name="checkbox_group_1"
+                type="checkbox"
+                class="checkbox__input"
+              />
+              <div>
+                <label for="checkbox_4" class="text-sm light">Other</label>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
+    <footer class="footer">
+      <div class="container-lg footer__content">
+        <h2 class="heading-lg semibold footer__content__title">
+          Can I help you?
+        </h2>
+        <a
+          href="contact-me.html"
+          class="button button--primary text-decoration-none"
+          >Get in touch!</a
+        >
+      </div>
+    </footer>
+  </body>
   </body>
 </html>
