@@ -1,8 +1,3 @@
-.contact-me__title,
-.contact-me__title p {
-  text-align: center;
-}
-
 .contact-me__content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -15,4 +10,3 @@
   display: flex;
   flex-direction: column;
 }
-

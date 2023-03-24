@@ -148,8 +148,6 @@
 .checkbox__input:checked {
   background-color: var(--blue-500);
   border: 1px solid var(--primary);
-
-  /* Cargar la imagen del check como backgound image */
   background-image: url(/assets/images/icons/check.svg);
   background-repeat: no-repeat;
   background-position: center;
