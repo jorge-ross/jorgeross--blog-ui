@@ -43,6 +43,7 @@
 .icon-corner svg {
   margin: 0;
   transform: scale(1);
+  cursor: pointer;
 }
 
 .icon-corner {
