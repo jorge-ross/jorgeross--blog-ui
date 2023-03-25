@@ -9,7 +9,7 @@
 .portfolio__card {
   display: flex;
   flex-direction: column;
-  background-color: var(--gray-100);
+  background-color: var(--secondary-light);
   padding: 2rem 2rem;
   border-radius: 1rem;
 }
@@ -22,23 +22,32 @@
 }
 
 .mini-p {
-  background-color: bisque;
+  background-color: var(--pink-600);
   padding: 2px 10px;
   border-radius: .5rem;
+  color: white;
 }
 
 .icons-port {
   display: flex;
   flex-direction: row; 
+  padding-bottom: 1.5rem;
+  position: relative;
 }
 
-svg {
-  transform: scale(1.2);
-  margin:8px;
+.icons-left svg {
+  column-gap: .5rem;
+  transform: translate(0, 25%);
+}
+
+.icon-corner svg {
+  margin: 0;
+  transform: scale(1);
 }
 
 .icon-corner {
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 3rem;
+  position: absolute;
+  right: 0;
+  padding: 0;
 }
+

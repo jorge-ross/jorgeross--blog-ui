@@ -59,10 +59,6 @@
   background-color: var(--background);
 }
 
-.bg-color-port-background {
-  background-color: var(--stone-200);
-}
-
 .center {
   display: flex;
   justify-content: center;
