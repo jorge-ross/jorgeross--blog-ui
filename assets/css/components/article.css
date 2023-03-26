@@ -80,3 +80,59 @@
 .article img {
   border-radius: 8px;
 }
+
+.page-article__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-article__card a {
+  margin-top: 2.5rem;
+  border: 0;
+  cursor: pointer;
+  width: 10rem;
+}
+.page-article__card h2 {
+  padding-bottom: 1.25rem;
+}
+
+.page-article__card img {
+  width: 90%;
+  border-radius: .5rem;
+  border: .5rem solid #ddd;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-par {
+  margin-bottom: 3rem;
+}
+
+.page-article__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding-bottom: .25rem;
+}
+
+.article-built__card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.page-article__content i {
+  justify-content: left;
+  transform: translate(0, 25%);
+  font-size: 2rem;
+}
+
+.article-built__card svg {
+  transform: translate(-22%, 10%);
+}
+
+.article-built__card h2 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
