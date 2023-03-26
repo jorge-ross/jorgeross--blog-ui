@@ -136,3 +136,27 @@
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
+.page-team__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 5rem;
+  padding-top: 1.5rem;
+}
+
+.page-team__card {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-team__card p {
+  font-size: 1rem;
+  padding-top: 1rem;
+  color: var(--primary-dark)
+}
+
+.social-media-icons-name {
+  font-size: 1.7rem;
+  transform: translateY(-15%);
+  color: gray;
+}
