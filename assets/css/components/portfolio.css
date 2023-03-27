@@ -22,7 +22,7 @@
 }
 
 .mini-p {
-  background-color: var(--pink-600);
+  background-color: var(--primary);
   padding: 2px 10px;
   border-radius: .5rem;
   color: white;
@@ -36,8 +36,8 @@
 }
 
 .icons-left svg {
-  column-gap: .5rem;
   transform: translate(0, 25%);
+  margin-right: 0;
 }
 
 .icon-corner svg {

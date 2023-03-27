@@ -124,13 +124,13 @@
 }
 
 .page-article__content i {
-  justify-content: left;
+  position: relative;
   transform: translate(0, 25%);
   font-size: 2rem;
 }
 
 .article-built__card svg {
-  transform: translate(-22%, 10%);
+  transform: translate(-22%, 30%);
 }
 
 .article-built__card h2 {
